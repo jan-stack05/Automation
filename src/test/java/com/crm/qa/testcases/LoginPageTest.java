@@ -29,11 +29,11 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(title, "Top 10 Banks in Australia - Overview of Australian Banks, Careers");
 	}
 	
-	/*@Test(priority=2)
+	@Test(priority=2)
 	public void crmLogoImageTest(){
 		boolean flag = loginPage.validateCRMImage();
 		Assert.assertTrue(flag);
-	}*/
+	}
 	
 	 @Test(priority=2)
 	
